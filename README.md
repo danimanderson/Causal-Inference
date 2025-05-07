@@ -55,3 +55,9 @@ adj_matrix = np.array([
     [0, 0, 0, 1],  # W2 -> Y
     [0, 0, 0, 0]   # No other connections
 ])
+
+2. Run the main function to find the minimal adjustment sets:
+if __name__ == "__main__":
+    find_adjustment_sets()
+
+3. The output will display the minimal adjustment sets that are necessary for unbiased causal estimation.
