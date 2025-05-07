@@ -41,11 +41,8 @@ The project is based on the **back-door criterion**, which ensures that we ident
 
 - Python 3.x
 - Libraries:
-  - `numpy`
-  - `pandas`
-  - `matplotlib` (optional, for visualization)
-  
-Alternatively, if you prefer using R, you can implement this in R as well using similar methods.
+   - collections (for BFS queue)
+   - itertools (for generating subsets)
 
 ## Usage
 
