@@ -48,13 +48,12 @@ The project is based on the **back-door criterion**, which ensures that we ident
 
 1. Define the adjacency matrix representing your causal graph. For example:
 
-```python
 adj_matrix = np.array([
     [0, 1, 0, 0],  # X -> Y
     [0, 0, 1, 0],  # W1 -> X
     [0, 0, 0, 1],  # W2 -> Y
     [0, 0, 0, 0]   # No other connections
-])```
+])
 
 2. Run the main function to find the minimal adjustment sets:
 if __name__ == "__main__":
